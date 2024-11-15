@@ -13,7 +13,7 @@ public class SolutionEx1 {
             }
         }
 
-        // 홀수 번째 원소들의 합과 짝수 번째 원소들의 합 중 더 큰 값을 return
+        // 홀수 번재 합과 짝수 번째 합중 더 큰 값을 return
         return Math.max(SumA, SumB);
     }
 
