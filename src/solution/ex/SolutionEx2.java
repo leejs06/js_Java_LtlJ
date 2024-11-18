@@ -5,7 +5,7 @@ public class SolutionEx2 {
 
         for (int i = 0; i < num_list.length; i++) {
             if (num_list[i] < 0) {  // 음수를 찾으면
-                return i;  // 해당 인덱스를 반환
+                return i;  // 해당 인덱스를 return
             }
         }
         // 음수가 없다면 -1을 return

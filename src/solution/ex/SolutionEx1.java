@@ -6,9 +6,9 @@ public class SolutionEx1 {
         int SumB = 0; // 짝수 번째 원소들의 합
 
         for (int i = 0; i < num_list.length; i++) {
-            if (i % 2 == 0) {  // 홀수 번째 원소
+            if (i % 2 == 0) {  // 홀수 번째 인덱스
                 SumA += num_list[i];
-            } else {  // 짝수 번째 원소
+            } else {  // 짝수 번째 인덱스
                 SumB += num_list[i];
             }
         }
@@ -22,6 +22,7 @@ public class SolutionEx1 {
 
         int[] num_list1 = {4, 2, 6, 1, 7, 6};
         int[] num_list2 = {-1, 2, 5, 6, 3};
+
 
         System.out.println(sol.solution(num_list1)); //홀수 번째 인덱스 값들의 합
         System.out.println(sol.solution(num_list2)); //짝수 번째 인덱스 값들의 합
